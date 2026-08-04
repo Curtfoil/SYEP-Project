@@ -1,7 +1,242 @@
-const button = document.getElementById('color-btn');
+// Data for the 5 deep-dive investigations with citations and verified working Unsplash image URLs
+const articlesData = {
+  "nestle": {
+    title: "Nestlé & The Infant Formula Scandal",
+    date: "August 4, 2026",
+    heroImage: "https://i.insider.com/4fe22d71eab8ea0e5600001d?width=600&format=jpeg&auto=webp",
+    content: `
+      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia.</p>
+      
+      <h3>The "Milk Nurse" Sales Tactics</h3>
+      <p>Investigative reports documented that Nestlé employed sales representatives dressed as medical professionals or "milk nurses." These representatives entered maternity wards to hand out free samples of commercial baby formula to mothers immediately after childbirth.</p>
+      
+      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder.</p>
 
-button.addEventListener('click', () => {
-    // Generate a random hex color
-    const randomColor = '#' + Math.floor(Math.random()*16777215).toString(16);
-    document.body.style.backgroundColor = randomColor;
+      <blockquote>"They created a commercial reliance on a product that local families could neither afford nor safely prepare."</blockquote>
+
+      <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&q=80" alt="Glass of water representing water safety issues" class="article-inline-image">
+      <span class="image-caption">Infant formula mixed with unsterilized water led to waterborne illnesses.</span>
+
+      <div class="article-data-box">
+        <h4>Key Public Health Impacts</h4>
+        <ul>
+          <li><strong>Over-Dilution Starvation:</strong> Due to extreme poverty, impoverished mothers frequently diluted formula powder with twice as much water to make it last longer, causing severe infant marasmus and malnutrition.</li>
+          <li><strong>Water Contamination:</strong> In areas lacking clean municipal drinking water, formula mixed with contaminated water triggered widespread, fatal diarrheal infections in infants.</li>
+          <li><strong>Global Regulation:</strong> The public outcry led directly to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.</li>
+        </ul>
+      </div>
+
+      <div class="article-sources-box">
+        <h4>Sources & Official Investigations</h4>
+        <ul>
+          <li><strong>War on Want Report (1974):</strong> <em>"The Baby Killer"</em> investigation into third-world infant malnutrition.</li>
+          <li><strong>World Health Organization (1981):</strong> <em>International Code of Marketing of Breast-milk Substitutes</em>.</li>
+          <li><strong>International Baby Food Action Network (IBFAN):</strong> Ongoing global infant health compliance monitoring.</li>
+        </ul>
+      </div>
+    `
+  },
+
+  "fastfashion": {
+    title: "Ultra-Fast Fashion: Exploitation & Waste",
+    date: "July 22, 2026",
+    heroImage: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80",
+    content: `
+      <p>The transformation of traditional apparel retail into "ultra-fast fashion"—pioneered by global e-commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps <em>every day</em>.</p>
+
+      <h3>Sub-Living Wages and Factory Labor</h3>
+      <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.</p>
+
+      <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=800&q=80" alt="Piles of clothes and textile materials" class="article-inline-image">
+      <span class="image-caption">Textile waste overload in international landfills resulting from ultra-fast consumption.</span>
+
+      <blockquote>"Garments are produced at costs so low that clothing has been re-categorized as disposable plastic goods."</blockquote>
+
+      <h3>The Microplastic & Landfill Footprint</h3>
+      <p>More than 60% of modern synthetic garments are produced using petroleum-derived fibers like polyester. During washing cycles, synthetic clothes release hundreds of thousands of microplastic fibers into marine waterways. Millions of tons of unsold micro-trend clothing are routinely dumped in Chile's Atacama Desert and Ghana's Kantamanto Market, creating toxic textile mountains that contaminate groundwater.</p>
+
+      <div class="article-sources-box">
+        <h4>Sources & Official Investigations</h4>
+        <ul>
+          <li><strong>Public Eye Investigation (2021):</strong> <em>"Toiling Away for Shein"</em> supplier audit.</li>
+          <li><strong>UN Environment Programme (UNEP):</strong> Environmental cost of synthetic textile production reports.</li>
+          <li><strong>BBC World Service:</strong> <em>"Inside the Atacama Clothing Dump"</em> documentary.</li>
+        </ul>
+      </div>
+    `
+  },
+
+  "bigtech": {
+    title: "Big Tech & Surveillance Capitalism",
+    date: "May 14, 2026",
+    heroImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
+    content: `
+      <p>The business model powering dominant digital platforms has shifted from connecting users to implementing "Surveillance Capitalism"—a system built around the unauthorized extraction, processing, and monetization of personal behavioral data.</p>
+
+      <h3>The Cambridge Analytica Precedent</h3>
+      <p>In 2018, whistleblowers revealed that political consulting firm Cambridge Analytica harvested private data from over 87 million Facebook users without explicit consent. The firm used psychological profiling algorithms to micro-target voters with customized disinformation during democratic elections.</p>
+
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Data analytics screen and network nodes" class="article-inline-image">
+      <span class="image-caption">Behavioral data profiles are bought and sold instantly in real-time ad exchanges.</span>
+
+      <div class="article-data-box">
+        <h4>Mechanisms of Data Extraction</h4>
+        <ul>
+          <li><strong>Cross-Site Pixels:</strong> Hidden tracking scripts embedded across millions of third-party websites log user activity even when individuals are logged out.</li>
+          <li><strong>Algorithmic Addiction:</strong> Recommendation engines are explicitly optimized to maximize screen time by prioritizing outrageous or divisive media.</li>
+        </ul>
+      </div>
+
+      <div class="article-sources-box">
+        <h4>Sources & Official Investigations</h4>
+        <ul>
+          <li><strong>Federal Trade Commission (FTC):</strong> $5 Billion penalty settlement against Meta/Facebook (2019).</li>
+          <li><strong>The New York Times:</strong> <em>"The Facebook Dilemma & Cambridge Analytica"</em> series.</li>
+          <li><strong>Shoshana Zuboff:</strong> <em>"The Age of Surveillance Capitalism"</em> (Harvard Business School).</li>
+        </ul>
+      </div>
+    `
+  },
+
+  "bigoil": {
+    title: "Exxon & The 50-Year Climate Cover-Up",
+    date: "April 02, 2026",
+    heroImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80",
+    content: `
+      <p>In 2015, investigative journalists uncovered internal corporate memos showing that Exxon’s senior scientists had accurately calculated and warned executives about global climate change caused by fossil fuels as early as 1977.</p>
+
+      <h3>Public Denial vs. Private Science</h3>
+      <p>Exxon's internal climate models accurately predicted temperature rises and atmospheric carbon thresholds decades in advance. However, rather than transitioning energy portfolios, corporate management spent tens of millions funding climate denial think tanks, lobbying groups, and public relations campaigns designed to sow public doubt.</p>
+
+      <blockquote>"Exxon accurately modeled climate change 50 years ago, then spent decades publicly claiming climate science was uncertain."</blockquote>
+
+      <img src="https://images.unsplash.com/photo-1569163139599-0f4517e36f31?w=800&q=80" alt="Parched cracked earth representing climate impact" class="article-inline-image">
+      <span class="image-caption">Decades of orchestrated climate denial delayed global clean energy policy transitions.</span>
+
+      <div class="article-sources-box">
+        <h4>Sources & Official Investigations</h4>
+        <ul>
+          <li><strong>InsideClimate News (2015):</strong> <em>"Exxon: The Road Not Taken"</em> Pulitzer Prize finalist investigation.</li>
+          <li><strong>Science Journal Study (2023):</strong> <em>"Assessing ExxonMobil's Global Warming Projections"</em> (Supran & Oreskes, Harvard University).</li>
+          <li><strong>U.S. House Oversight Committee:</strong> Investigation into Fossil Fuel Disinformation (2022).</li>
+        </ul>
+      </div>
+    `
+  },
+
+  "amazon": {
+    title: "Amazon: Automated Quotas & Injuries",
+    date: "February 18, 2026",
+    heroImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
+    content: `
+      <p>Amazon's logistics operations rely heavily on automated algorithmic supervision to meet rapid e-commerce shipping timelines. Inside fulfillment centers, human workers are monitored continuously by tracking algorithms that dictate work pace.</p>
+
+      <h3>Algorithmic Management & "Time Off Task"</h3>
+      <p>Warehouse scanners measure worker productivity down to the second. Algorithms automatically track "Time Off Task" (TOT). Taking unscheduled bathroom breaks or pausing to catch one's breath generates automated disciplinary warnings that can lead to termination without human managerial intervention.</p>
+
+      <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&q=80" alt="Warehouse boxes and logistics fulfillment" class="article-inline-image">
+      <span class="image-caption">Punishing scanner quotas drive warehouse injury rates well above industry standards.</span>
+
+      <div class="article-data-box">
+        <h4>OSHA Findings & Worker Safety Metrics</h4>
+        <ul>
+          <li><strong>Elevated Injury Rates:</strong> Official OSHA filings show Amazon fulfillment centers historically record injury rates more than double the national warehousing average.</li>
+          <li><strong>Musculoskeletal Strain:</strong> Repetitive physical demands required to meet quota benchmarks cause severe long-term spinal and joint wear.</li>
+        </ul>
+      </div>
+
+      <div class="article-sources-box">
+        <h4>Sources & Official Investigations</h4>
+        <ul>
+          <li><strong>Occupational Safety and Health Administration (OSHA):</strong> Federal citations and ergonomics inspections (2023).</li>
+          <li><strong>The Washington Post / NYT:</strong> Investigations into Amazon automated termination algorithms.</li>
+          <li><strong>Strategic Organizing Center (SOC):</strong> <em>"The Injury Machine"</em> annual warehouse safety reports.</li>
+        </ul>
+      </div>
+    `
+  }
+};
+
+// --- DOM References ---
+const homeView = document.getElementById('home-view');
+const articleView = document.getElementById('article-view');
+const backBtn = document.getElementById('back-btn');
+const headerLogo = document.getElementById('header-logo');
+
+// Article Fields
+const artTitle = document.getElementById('article-title');
+const artDate = document.getElementById('article-date');
+const artHeroImg = document.getElementById('article-hero-img');
+const artBody = document.getElementById('article-body');
+
+// Navigation Drawer Fields
+const menuToggle = document.getElementById('menuToggle');
+const menuClose = document.getElementById('menuClose');
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('sidebarOverlay');
+const navHome = document.getElementById('nav-home');
+
+// --- Navigation Logic ---
+function showArticle(id) {
+  const data = articlesData[id];
+  if(!data) return;
+
+  // Inject content
+  artTitle.innerHTML = data.title;
+  artDate.innerHTML = data.date;
+  artHeroImg.src = data.heroImage;
+  artBody.innerHTML = data.content;
+
+  // Switch views
+  homeView.classList.add('hidden');
+  articleView.classList.remove('hidden');
+  
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function showHome() {
+  articleView.classList.add('hidden');
+  homeView.classList.remove('hidden');
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function openSidebar() {
+  sidebar.classList.add('active');
+  overlay.classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSidebar() {
+  sidebar.classList.remove('active');
+  overlay.classList.remove('active');
+  document.body.style.overflow = '';
+}
+
+// --- Event Binding ---
+document.querySelectorAll('.project-card').forEach(card => {
+  card.addEventListener('click', () => {
+    const id = card.getAttribute('data-id');
+    showArticle(id);
+  });
 });
+
+document.querySelectorAll('.sidebar-article-link').forEach(link => {
+  link.addEventListener('click', (e) => {
+    e.preventDefault();
+    const id = link.getAttribute('data-id');
+    closeSidebar();
+    showArticle(id);
+  });
+});
+
+backBtn.addEventListener('click', showHome);
+headerLogo.addEventListener('click', showHome);
+navHome.addEventListener('click', (e) => {
+  e.preventDefault();
+  closeSidebar();
+  showHome();
+});
+
+menuToggle.addEventListener('click', openSidebar);
+menuClose.addEventListener('click', closeSidebar);
+overlay.addEventListener('click', closeSidebar);

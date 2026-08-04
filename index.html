@@ -3,11 +3,11 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Impact on Daily Life</title>
+  <title>Corporate Accountability Journal</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Merriweather:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
 </head>
 <body>
 
@@ -17,65 +17,34 @@
   <!-- Slide-out Sidebar Drawer -->
   <aside class="sidebar" id="sidebar">
     <div class="sidebar-header">
-      <div class="sidebar-title">Impact on Daily Life</div>
+      <div class="sidebar-title">Impact Journal</div>
       <button class="close-btn" id="menuClose" aria-label="Close menu">&times;</button>
     </div>
-
     <nav class="sidebar-nav">
       <ul>
-        <!-- Home Navigation Item -->
         <li class="nav-item active">
-          <a href="#">
+          <a href="#" id="nav-home">
             <span class="active-indicator"></span>
             <svg class="nav-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M6.906.664a1.749 1.749 0 0 1 2.187 0l5.25 4.2c.415.332.657.835.657 1.367v7.019A1.75 1.75 0 0 1 13.25 15h-3.5a.75.75 0 0 1-.75-.75V9H7v5.25a.75.75 0 0 1-.75.75h-3.5A1.75 1.75 0 0 1 1 13.25V6.231c0-.532.242-1.035.657-1.367l5.249-4.2Z"></path></svg>
             <span>Home</span>
           </a>
         </li>
-
-        <!-- Divider -->
         <li class="divider"></li>
-
-        <!-- 5 Placeholder Buttons -->
-        <li class="nav-item">
-          <a href="#">
-            <svg class="nav-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Z"></path></svg>
-            <span>Placeholder 1</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#">
-            <svg class="nav-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Z"></path></svg>
-            <span>Placeholder 2</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#">
-            <svg class="nav-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Z"></path></svg>
-            <span>Placeholder 3</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#">
-            <svg class="nav-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Z"></path></svg>
-            <span>Placeholder 4</span>
-          </a>
-        </li>
-        <li class="nav-item">
-          <a href="#">
-            <svg class="nav-icon" viewBox="0 0 16 16" fill="currentColor"><path d="M8 0a8 8 0 1 1 0 16A8 8 0 0 1 8 0Z"></path></svg>
-            <span>Placeholder 5</span>
-          </a>
-        </li>
+        <!-- Sidebar Navigation Links with Thumbnails -->
+        <li class="nav-item"><a href="#" class="sidebar-article-link" data-id="nestle"><img src="https://images.unsplash.com/photo-1555252333-9f8e92e65df9?w=100&q=80" alt="Nestlé" class="nav-thumb"><span>Nestlé Formula Scandal</span></a></li>
+        <li class="nav-item"><a href="#" class="sidebar-article-link" data-id="fastfashion"><img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=100&q=80" alt="Fast Fashion" class="nav-thumb"><span>Fast Fashion & Waste</span></a></li>
+        <li class="nav-item"><a href="#" class="sidebar-article-link" data-id="bigtech"><img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=100&q=80" alt="Big Tech" class="nav-thumb"><span>Big Tech Data Harvest</span></a></li>
+        <li class="nav-item"><a href="#" class="sidebar-article-link" data-id="bigoil"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=100&q=80" alt="Big Oil" class="nav-thumb"><span>Big Oil Climate Denial</span></a></li>
+        <li class="nav-item"><a href="#" class="sidebar-article-link" data-id="amazon"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=100&q=80" alt="Amazon" class="nav-thumb"><span>Amazon Labor & Quotas</span></a></li>
       </ul>
     </nav>
   </aside>
 
   <div class="site-wrapper">
-    <!-- Navigation -->
+    <!-- Header Navigation -->
     <header class="navbar">
-      <div class="logo">Impact on Daily Life</div>
+      <div class="logo" id="header-logo">Impact on Daily Life</div>
       <div class="nav-right">
-        <a href="#contact" class="btn btn-sm">Contact</a>
         <button class="hamburger-btn" id="menuToggle" aria-label="Open menu">
           <span></span>
           <span></span>
@@ -84,119 +53,111 @@
       </div>
     </header>
 
-    <!-- Main Content -->
     <main class="main-content">
       
-      <!-- Hero Section -->
-      <section class="hero">
-        <h1>Impact on Daily Life</h1>
-        <p>A collection of web applications, interface designs, and frontend development projects built for performance and precision.</p>
-      </section>
+      <!-- HOME VIEW: Cards Grid -->
+      <div id="home-view">
+        <section class="hero">
+          <span class="hero-badge">Corporate Accountability Journal</span>
+          <h1>Exposing the Hidden Cost of Corporate Power</h1>
+          <p>Investigating how global conglomerates impact public health, labor rights, environmental ecosystems, and personal privacy in our everyday lives.</p>
+        </section>
 
-      <!-- Projects Grid -->
-      <section id="projects" class="projects-grid">
+        <section class="projects-grid">
+          <!-- Card 1 -->
+          <article class="project-card" data-id="nestle">
+            <div class="card-image"><img src="https://i.insider.com/4fe22d71eab8ea0e5600001d?width=600&format=jpeg&auto=webp" alt="Infant bottle and formula concept"></div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Nestlé & The Infant Formula Scandal</h3>
+                <span class="read-time">7 min read</span>
+              </div>
+              <p>How aggressive formula marketing in developing nations created a reliance on powder mixed with contaminated water, leading to historic boycotts and WHO interventions.</p>
+              <div class="card-actions"><span class="project-link">Read Investigation &rarr;</span></div>
+            </div>
+          </article>
 
-        <!-- Project 1 -->
-        <article class="project-card">
-          <div class="card-image">
-            <img src="https://via.placeholder.com/600x380/1e293b/ffffff?text=Dashboard+UI" alt="Analytics Dashboard">
+          <!-- Card 2 -->
+          <article class="project-card" data-id="fastfashion">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=800&q=80" alt="Racks of synthetic fast fashion clothing"></div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Ultra-Fast Fashion: Exploitation & Waste</h3>
+                <span class="read-time">6 min read</span>
+              </div>
+              <p>Ultra-fast fashion algorithms drive sub-living wage sweatshop labor and synthetic microplastic pollution clogging oceans and landfills across the Global South.</p>
+              <div class="card-actions"><span class="project-link">Read Investigation &rarr;</span></div>
+            </div>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="project-card" data-id="bigtech">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=800&q=80" alt="Digital data code stream representing surveillance"></div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Big Tech & Surveillance Capitalism</h3>
+                <span class="read-time">8 min read</span>
+              </div>
+              <p>From Cambridge Analytica to dark pattern behavioral tracking, tech giants covertly harvest personal data to monetize human attention and influence elections.</p>
+              <div class="card-actions"><span class="project-link">Read Investigation &rarr;</span></div>
+            </div>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="project-card" data-id="bigoil">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=800&q=80" alt="Oil refinery emitting greenhouse gases"></div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Exxon & The 50-Year Climate Cover-Up</h3>
+                <span class="read-time">10 min read</span>
+              </div>
+              <p>Internal corporate records reveal Exxon scientists predicted global warming in 1977, while executives spent millions funding climate denial campaigns.</p>
+              <div class="card-actions"><span class="project-link">Read Investigation &rarr;</span></div>
+            </div>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="project-card" data-id="amazon">
+            <div class="card-image"><img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=800&q=80" alt="Amazon fulfillment logistics facility"></div>
+            <div class="card-body">
+              <div class="card-header">
+                <h3>Amazon: Automated Quotas & Injuries</h3>
+                <span class="read-time">6 min read</span>
+              </div>
+              <p>Algorithmic surveillance firing warehouse workers over "Time Off Task", skyrocketing injury metrics, and intense pressure to sustain 1-day delivery speeds.</p>
+              <div class="card-actions"><span class="project-link">Read Investigation &rarr;</span></div>
+            </div>
+          </article>
+        </section>
+      </div>
+
+      <!-- ARTICLE VIEW: Injected dynamically via JS -->
+      <div id="article-view" class="hidden">
+        <button id="back-btn" class="btn btn-back">&larr; Back to all investigations</button>
+        <article class="full-article">
+          <div class="article-hero">
+            <img id="article-hero-img" src="" alt="Hero Article Media">
           </div>
-          <div class="card-body">
-            <div class="card-header">
-              <h3>Nexus Analytics Platform</h3>
-              <span class="year">2026</span>
+          <div class="article-header-meta">
+            <h1 id="article-title">Title</h1>
+            <div class="meta-data">
+              <span id="article-author" class="author">Corporate Accountability Desk</span> &bull; 
+              <span id="article-date">Date</span>
             </div>
-            <p>Real-time financial dashboard with interactive charting, custom data filtering, and dark mode design system.</p>
-            <div class="tags">
-              <span>React</span>
-              <span>TypeScript</span>
-              <span>Tailwind</span>
-            </div>
-            <div class="card-actions">
-              <a href="#" class="project-link">View Demo &rarr;</a>
-              <a href="#" class="code-link">GitHub</a>
-            </div>
+          </div>
+          <div id="article-body" class="article-body-content">
+            <!-- Dynamic HTML Content -->
           </div>
         </article>
+      </div>
 
-        <!-- Project 2 -->
-        <article class="project-card">
-          <div class="card-image">
-            <img src="https://via.placeholder.com/600x380/0f172a/ffffff?text=E-Commerce+App" alt="E-Commerce App">
-          </div>
-          <div class="card-body">
-            <div class="card-header">
-              <h3>Aura Commerce</h3>
-              <span class="year">2025</span>
-            </div>
-            <p>Headless e-commerce storefront featuring instant search indexing, seamless cart management, and Stripe integration.</p>
-            <div class="tags">
-              <span>Next.js</span>
-              <span>GraphQL</span>
-              <span>Stripe</span>
-            </div>
-            <div class="card-actions">
-              <a href="#" class="project-link">View Demo &rarr;</a>
-              <a href="#" class="code-link">GitHub</a>
-            </div>
-          </div>
-        </article>
-
-        <!-- Project 3 -->
-        <article class="project-card">
-          <div class="card-image">
-            <img src="https://via.placeholder.com/600x380/111827/ffffff?text=AI+Task+Manager" alt="AI Task Manager">
-          </div>
-          <div class="card-body">
-            <div class="card-header">
-              <h3>Flow AI Workflow Engine</h3>
-              <span class="year">2025</span>
-            </div>
-            <p>Automated productivity tool utilizing generative AI to categorize tasks, generate meeting notes, and summarize audio.</p>
-            <div class="tags">
-              <span>Vue.js</span>
-              <span>Node.js</span>
-              <span>OpenAI</span>
-            </div>
-            <div class="card-actions">
-              <a href="#" class="project-link">View Demo &rarr;</a>
-              <a href="#" class="code-link">GitHub</a>
-            </div>
-          </div>
-        </article>
-
-      </section>
     </main>
 
-    <!-- Footer -->
     <footer class="footer">
-      <p>&copy; 2026 SYEP-Project. All rights reserved.</p>
+      <p>&copy; 2026 Impact on Daily Life. Corporate Accountability & Public Interest Project.</p>
     </footer>
   </div>
 
-  <!-- Sidebar Toggle Script -->
-  <script>
-    const menuToggle = document.getElementById('menuToggle');
-    const menuClose = document.getElementById('menuClose');
-    const sidebar = document.getElementById('sidebar');
-    const overlay = document.getElementById('sidebarOverlay');
-
-    function openSidebar() {
-      sidebar.classList.add('active');
-      overlay.classList.add('active');
-      document.body.style.overflow = 'hidden';
-    }
-
-    function closeSidebar() {
-      sidebar.classList.remove('active');
-      overlay.classList.remove('active');
-      document.body.style.overflow = '';
-    }
-
-    menuToggle.addEventListener('click', openSidebar);
-    menuClose.addEventListener('click', closeSidebar);
-    overlay.addEventListener('click', closeSidebar);
-  </script>
-
+  <script src="script.js"></script>
 </body>
 </html>
