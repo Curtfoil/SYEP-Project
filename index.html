@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Nestlé History & Controversy</title>
+  <title>Portfolio & Projects</title>
   <link rel="stylesheet" href="style.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,94 +11,112 @@
 </head>
 <body>
 
-  <div class="page-container">
-    <!-- Navbar Header -->
+  <div class="site-wrapper">
+    <!-- Navigation -->
     <header class="navbar">
-      <div class="nav-left">
-        <button class="hamburger-btn" aria-label="Menu">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      </div>
-
+      <div class="logo">Alex Developer<span>.</span></div>
       <nav class="nav-links">
-        <a href="#" class="nav-link active">Statistics</a>
-        <a href="#" class="nav-link">Time Line</a>
+        <a href="#projects" class="active">Projects</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
       </nav>
-
-      <div class="nav-right">
-        <div class="search-bar">
-          <span class="search-icon">
-            <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.471 6.471 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
-          </span>
-          <input type="text" placeholder="Search...">
-        </div>
-        <div class="user-icon" title="Account">
-          <svg viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-        </div>
-      </div>
+      <a href="#contact" class="btn btn-sm">Get in Touch</a>
     </header>
 
-    <!-- Main Grid Viewport Layout -->
-    <main class="content-container">
+    <!-- Main Content -->
+    <main class="main-content">
+      
+      <!-- Hero Section -->
+      <section class="hero">
+        <span class="badge">Portfolio</span>
+        <h1>Selected Work & Digital Experiments</h1>
+        <p>A collection of web applications, interface designs, and frontend development projects built for performance and precision.</p>
+      </section>
 
-      <!-- Card 1: Nestle Intro -->
-      <article class="card nestle-intro">
-        <div class="card-header">
-          <span class="tag">Controversy</span>
-          <h2>Nestlé</h2>
-        </div>
-        <p>
-          The term <strong>"The Baby Killer"</strong> stems from a 1974 report highlighting Nestlé's aggressive marketing of infant formula in developing nations. Promoting formula to impoverished areas without clean water led to widespread infant malnutrition and fatalities from unsafe preparation.
-        </p>
-        <p class="sub-text">
-          This prompted a libel trial and global boycotts, resulting in the WHO adopting strict international marketing codes for breast-milk substitutes in 1981.
-        </p>
-      </article>
+      <!-- Projects Grid -->
+      <section id="projects" class="projects-grid">
 
-      <!-- Card 2: Center Feature Cover -->
-      <article class="card baby-killer-feature">
-        <div class="feature-header">
-          <h1>The Baby Killer</h1>
-          <span class="subtitle">1974 Investigative Report</span>
-        </div>
-        <div class="poster-wrapper">
-          <img src="https://via.placeholder.com/220x300/222222/ffffff?text=The+Baby+Killer" alt="The Baby Killer pamphlet cover">
-        </div>
-      </article>
-
-      <!-- Card 3: Founder Info -->
-      <article class="card founder-info">
-        <div class="card-header">
-          <span class="tag">Origins</span>
-          <h2>Henri Nestlé</h2>
-        </div>
-        <p>
-          When Nestlé was first founded in 1866, they were famous for their baby food brands. When Henri Nestlé founded the company, his intentions were to address the high infant mortality rate in Switzerland.
-        </p>
-        <div class="founder-image-wrapper">
-          <img src="https://via.placeholder.com/340x160/333333/ffffff?text=Henri+Nestl%C3%A9+Archive" alt="Henri Nestle and infant cereal product">
-        </div>
-      </article>
-
-      <!-- Bottom Card: Corporate History -->
-      <article class="card history-section">
-        <div class="history-image-wrapper">
-          <img src="https://via.placeholder.com/260x160/444444/ffffff?text=Environmental+Impact" alt="Dry cracked earth landscape">
-        </div>
-        <div class="history-text">
-          <div class="card-header">
-            <span class="tag">Global Impact</span>
-            <h2>Corporate History & Allegations</h2>
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="card-image">
+            <img src="https://via.placeholder.com/600x380/1e293b/ffffff?text=Dashboard+UI" alt="Analytics Dashboard">
           </div>
-          <p>
-            Nestlé has faced major controversy on several fronts beyond infant formula. It has faced lawsuits regarding child labor across cocoa supply chains, along with public outrage for pumping groundwater in drought-stricken regions to bottle and sell as natural spring water.
-          </p>
-        </div>
-      </article>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Nexus Analytics Platform</h3>
+              <span class="year">2026</span>
+            </div>
+            <p>Real-time financial dashboard with interactive charting, custom data filtering, and dark mode design system.</p>
+            <div class="tags">
+              <span>React</span>
+              <span>TypeScript</span>
+              <span>Tailwind</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="project-link">View Demo &rarr;</a>
+              <a href="#" class="code-link">GitHub</a>
+            </div>
+          </div>
+        </article>
 
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="card-image">
+            <img src="https://via.placeholder.com/600x380/0f172a/ffffff?text=E-Commerce+App" alt="E-Commerce App">
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Aura Commerce</h3>
+              <span class="year">2025</span>
+            </div>
+            <p>Headless e-commerce storefront featuring instant search indexing, seamless cart management, and Stripe integration.</p>
+            <div class="tags">
+              <span>Next.js</span>
+              <span>GraphQL</span>
+              <span>Stripe</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="project-link">View Demo &rarr;</a>
+              <a href="#" class="code-link">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="card-image">
+            <img src="https://via.placeholder.com/600x380/111827/ffffff?text=AI+Task+Manager" alt="AI Task Manager">
+          </div>
+          <div class="card-body">
+            <div class="card-header">
+              <h3>Flow AI Workflow Engine</h3>
+              <span class="year">2025</span>
+            </div>
+            <p>Automated productivity tool utilizing generative AI to categorize tasks, generate meeting notes, and summarize audio.</p>
+            <div class="tags">
+              <span>Vue.js</span>
+              <span>Node.js</span>
+              <span>OpenAI</span>
+            </div>
+            <div class="card-actions">
+              <a href="#" class="project-link">View Demo &rarr;</a>
+              <a href="#" class="code-link">GitHub</a>
+            </div>
+          </div>
+        </article>
+
+      </section>
     </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <p>&copy; 2026 Alex Developer. All rights reserved.</p>
+      <div class="socials">
+        <a href="#">GitHub</a>
+        <a href="#">LinkedIn</a>
+        <a href="#">X / Twitter</a>
+      </div>
+    </footer>
   </div>
 
 </body>
