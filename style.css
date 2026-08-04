@@ -49,25 +49,10 @@ body {
   letter-spacing: -0.5px;
 }
 
-.logo span {
-  color: var(--accent-color);
-}
-
-.nav-links {
+.nav-right {
   display: flex;
-  gap: 2rem;
-}
-
-.nav-links a {
-  color: var(--text-secondary);
-  text-decoration: none;
-  font-weight: 500;
-  font-size: 0.95rem;
-  transition: color 0.2s ease;
-}
-
-.nav-links a.active, .nav-links a:hover {
-  color: var(--text-primary);
+  align-items: center;
+  gap: 1.25rem;
 }
 
 /* Buttons */
@@ -91,6 +76,33 @@ body {
 .btn-sm {
   padding: 0.45rem 0.9rem;
   font-size: 0.85rem;
+}
+
+/* --- 3-Line Hamburger Button --- */
+.hamburger-btn {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 22px;
+  height: 16px;
+  padding: 0;
+  z-index: 10;
+}
+
+.hamburger-btn span {
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: var(--text-primary);
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+
+.hamburger-btn:hover span {
+  background-color: var(--accent-color);
 }
 
 /* --- Hero Section --- */
@@ -237,34 +249,155 @@ body {
   font-size: 0.85rem;
 }
 
-.socials {
-  display: flex;
-  gap: 1.5rem;
+/* --- Backdrop Overlay --- */
+.sidebar-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.65);
+  backdrop-filter: blur(3px);
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  z-index: 998;
 }
 
-.socials a {
-  color: var(--text-secondary);
-  text-decoration: none;
+.sidebar-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+/* --- Slide-Out Sidebar Drawer --- */
+.sidebar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 320px;
+  max-width: 85vw;
+  height: 100vh;
+  background-color: #0d1117;
+  color: #c9d1d9;
+  box-shadow: -4px 0 24px rgba(0, 0, 0, 0.6);
+  transform: translateX(100%);
+  transition: transform 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+  z-index: 999;
+  display: flex;
+  flex-direction: column;
+  overflow-y: auto;
+}
+
+.sidebar.active {
+  transform: translateX(0);
+}
+
+/* Sidebar Header */
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.25rem 1.5rem;
+  border-bottom: 1px solid #21262d;
+}
+
+.sidebar-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.05rem;
+  letter-spacing: -0.3px;
+}
+
+.close-btn {
+  background: transparent;
+  border: none;
+  color: #8b949e;
+  font-size: 1.75rem;
+  line-height: 1;
+  cursor: pointer;
   transition: color 0.2s ease;
 }
 
-.socials a:hover {
-  color: var(--text-primary);
+.close-btn:hover {
+  color: #ffffff;
 }
 
-/* Mobile Responsiveness */
+/* Sidebar Navigation Items */
+.sidebar-nav {
+  padding: 0.75rem 0.5rem;
+}
+
+.sidebar-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar-nav .divider {
+  height: 1px;
+  background-color: #21262d;
+  margin: 0.75rem 0;
+}
+
+.nav-item {
+  position: relative;
+  margin-bottom: 2px;
+}
+
+.nav-item a {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  padding: 0.6rem 1rem;
+  color: #c9d1d9;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  border-radius: 6px;
+  transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+.nav-item a:hover {
+  background-color: #161b22;
+  color: #ffffff;
+}
+
+.nav-icon {
+  width: 16px;
+  height: 16px;
+  fill: #8b949e;
+  flex-shrink: 0;
+}
+
+.nav-item a:hover .nav-icon {
+  fill: #ffffff;
+}
+
+/* Active Navigation Item Indicator */
+.nav-item.active a {
+  background-color: #161b22;
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.nav-item.active .nav-icon {
+  fill: #ffffff;
+}
+
+.active-indicator {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 3px;
+  height: 20px;
+  background-color: #2f81f7;
+  border-radius: 0 2px 2px 0;
+}
+
+/* Responsive Styles */
 @media (max-width: 640px) {
   .site-wrapper {
     padding: 1.25rem;
-  }
-  .navbar {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-start;
-  }
-  .footer {
-    flex-direction: column;
-    gap: 1rem;
-    align-items: flex-start;
   }
 }
