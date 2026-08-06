@@ -2,7 +2,7 @@
 const articlesData = {
   "nestle": {
     title: "Nestlé & The Infant Formula Scandal",
-    date: "August 4, 2026",
+    date: "August 5, 2026",
     heroImage: "https://i.insider.com/4fe22d71eab8ea0e5600001d?width=600&format=jpeg&auto=webp",
     content: `
       <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia.</p>
@@ -39,7 +39,7 @@ const articlesData = {
 
   "fastfashion": {
     title: "Ultra-Fast Fashion: Exploitation & Waste",
-    date: "July 22, 2026",
+    date: "Aug 6, 2026",
     heroImage: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80",
     content: `
       <p>The transformation of traditional apparel retail into "ultra-fast fashion"—pioneered by global e-commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps <em>every day</em>.</p>
@@ -100,7 +100,7 @@ const articlesData = {
 
   "bigoil": {
     title: "Exxon & The 50-Year Climate Cover-Up",
-    date: "April 02, 2026",
+    date: "Aug 6, 2026",
     heroImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80",
     content: `
       <p>In 2015, investigative journalists uncovered internal corporate memos showing that Exxon’s senior scientists had accurately calculated and warned executives about global climate change caused by fossil fuels as early as 1977.</p>
@@ -126,7 +126,7 @@ const articlesData = {
 
   "amazon": {
     title: "Amazon: Automated Quotas & Injuries",
-    date: "February 18, 2026",
+    date: "Aug 5, 2026",
     heroImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
     content: `
       <p>Amazon's logistics operations rely heavily on automated algorithmic supervision to meet rapid e-commerce shipping timelines. Inside fulfillment centers, human workers are monitored continuously by tracking algorithms that dictate work pace.</p>
