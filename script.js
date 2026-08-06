@@ -66,37 +66,40 @@ const articlesData = {
     `
   },
 
-  "bigtech": {
-    title: "Flock Safety surveillance",
-    date: "Aug 6, 2026",
-    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
-    content: `
-      <p>The business model powering dominant digital platforms has shifted from connecting users to implementing "Surveillance Capitalism"—a system built around the unauthorized extraction, processing, and monetization of personal behavioral data.</p>
+"bigtech": {
+  title: "Flock Safety AI Camera Network",
+  date: "Aug 6, 2026",
+  heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
+  content: `
+    <p>Flock Safety operates a nationwide network of AI-powered automatic license plate recognition (ALPR) cameras used by thousands of law enforcement agencies and private communities. The cameras capture license plates, vehicle characteristics, and the time and location of sightings, allowing investigators to search for vehicles connected to crimes.</p>
 
-      <h3>The Cambridge Analytica Precedent</h3>
-      <p>In 2018, whistleblowers revealed that political consulting firm Cambridge Analytica harvested private data from over 87 million Facebook users without explicit consent. The firm used psychological profiling algorithms to micro-target voters with customized disinformation during democratic elections.</p>
+    <h3>North Carolina officer allegedly used Flock cameras for personal surveillance</h3>
 
-      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Data analytics screen and network nodes" class="article-inline-image">
-      <span class="image-caption">Behavioral data profiles are bought and sold instantly in real-time ad exchanges.</span>
+    <p>In 2026, North Carolina authorities alleged that a police officer improperly used the Flock Safety camera system to search for and monitor his boyfriend's ex-wife. Investigators said the searches were unrelated to any criminal investigation, raising concerns about insider misuse of powerful surveillance technology and the safeguards governing access.</p>
 
-      <div class="article-data-box">
-        <h4>Mechanisms of Data Extraction</h4>
-        <ul>
-          <li><strong>Cross-Site Pixels:</strong> Hidden tracking scripts embedded across millions of third-party websites log user activity even when individuals are logged out.</li>
-          <li><strong>Algorithmic Addiction:</strong> Recommendation engines are explicitly optimized to maximize screen time by prioritizing outrageous or divisive media.</li>
-        </ul>
-      </div>
+    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Traffic surveillance camera monitoring vehicles" class="article-inline-image">
+    <span class="image-caption">AI-powered license plate recognition cameras record vehicle movements to assist criminal investigations.</span>
 
-      <div class="article-sources-box">
-        <h4>Sources & Official Investigations</h4>
-        <ul>
-          <li><strong>Federal Trade Commission (FTC):</strong> $5 Billion penalty settlement against Meta/Facebook (2019).</li>
-          <li><strong>The New York Times:</strong> <em>"The Facebook Dilemma & Cambridge Analytica"</em> series.</li>
-          <li><strong>Shoshana Zuboff:</strong> <em>"The Age of Surveillance Capitalism"</em> (Harvard Business School).</li>
-        </ul>
-      </div>
-    `
-  },
+    <div class="article-data-box">
+      <h4>How Flock Safety Cameras Work</h4>
+      <ul>
+        <li><strong>Automatic License Plate Recognition:</strong> Cameras capture license plates along with vehicle color, make, model, and distinguishing features.</li>
+        <li><strong>Vehicle Search:</strong> Officers can search historical sightings to determine where a vehicle has traveled.</li>
+        <li><strong>Real-Time Alerts:</strong> Agencies can receive notifications when a vehicle associated with a wanted person, stolen vehicle, or active investigation passes a camera.</li>
+        <li><strong>Data Retention:</strong> Flock states that customer data is typically retained for 30 days unless preserved as evidence or otherwise required by law.</li>
+      </ul>
+    </div>
+
+    <div class="article-sources-box">
+      <h4>Sources & Reporting</h4>
+      <ul>
+        <li><strong>Flock Safety:</strong> Official documentation on ALPR technology, transparency, and privacy practices.</li>
+        <li><strong>Electronic Frontier Foundation (EFF):</strong> Analysis of privacy implications surrounding automated license plate readers.</li>
+        <li><strong>Local News Reporting:</strong> Coverage of the North Carolina investigation involving alleged misuse of the Flock camera system.</li>
+      </ul>
+    </div>
+  `
+},
 
   "bigoil": {
     title: "Exxon & The 50-Year Climate Cover-Up",
