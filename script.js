@@ -67,9 +67,9 @@ const articlesData = {
   },
 
   "bigtech": {
-    title: "Big Tech & Surveillance Capitalism",
-    date: "May 14, 2026",
-    heroImage: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?w=1200&q=80",
+    title: "Flock Safety surveillance",
+    date: "Aug 6, 2026",
+    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
     content: `
       <p>The business model powering dominant digital platforms has shifted from connecting users to implementing "Surveillance Capitalism"—a system built around the unauthorized extraction, processing, and monetization of personal behavioral data.</p>
 
