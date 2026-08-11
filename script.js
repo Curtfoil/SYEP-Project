@@ -45,7 +45,7 @@ const articlesData = {
       <p>The transformation of traditional apparel retail into "ultra-fast fashion"—pioneered by global e-commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps <em>every day</em>.</p>
 
       <h3>Sub-Living Wages and Factory Labor</h3>
-      <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.</p>
+      <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.Shein's internal audits uncovered multiple instances of child labor within its supply chain, prompting immediate contract terminations for offending suppliers. Labor advocates argue the ultra-fast-fashion business model drives these abuses by forcing suppliers to subcontract to unauthorized workshops, resulting in systemic issues like extreme work hours and unsafe conditions.</p>
 
       <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=800&q=80" alt="Piles of clothes and textile materials" class="article-inline-image">
       <span class="image-caption">Textile waste overload in international landfills resulting from ultra-fast consumption.</span>
