@@ -5,24 +5,29 @@ const articlesData = {
     date: "August 5, 2026",
     heroImage: "https://i.insider.com/4fe22d71eab8ea0e5600001d?width=600&format=jpeg&auto=webp",
     content: `
-      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia.</p>
+      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia. Nestlé focused on these poor countries because sales were slowing down in richer nations like the United States and Europe. To make more money, the company had to convince millions of mothers in developing countries that factory-made formula was healthier and more modern than natural breast milk.</p>
       
       <h3>The "Milk Nurse" Sales Tactics</h3>
       <p>Investigative reports documented that Nestlé employed sales representatives dressed as medical professionals or "milk nurses." These representatives entered maternity wards to hand out free samples of commercial baby formula to mothers immediately after childbirth.</p>
       
-      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder.</p>
+      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder. This created a deadly trap for poor families. Because the formula powder was so expensive, mothers tried to make it last longer by watering it down. This meant the babies did not get enough nutrients and began to starve. Even worse, many villages did not have clean running water. Mixing the formula with polluted water gave the babies severe infections and diarrhea, leading to the tragic deaths of millions of infants.</p>
 
       <blockquote>"They created a commercial reliance on a product that local families could neither afford nor safely prepare."</blockquote>
 
       <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&q=80" alt="Glass of water representing water safety issues" class="article-inline-image">
       <span class="image-caption">Infant formula mixed with unsterilized water led to waterborne illnesses.</span>
 
+      <h3>The Commodification of Water: "Not a Human Right"</h3>
+      <p>Nestlé's disregard for basic human necessities extended far beyond infant nutrition into the global battle over clean water access. In the documentary <em>We Feed the World</em>, former Nestlé CEO and Chairman Peter Brabeck-Letmathe sparked massive international outrage by asserting that water should not be considered a public human right. He famously labeled the viewpoint that every human has a right to water as an "extreme" ideological stance.</p>
+
+      <p>Instead, Brabeck-Letmathe argued that water is a foodstuff with a market value and should be priced like any other commodity to prevent waste. Critics and human rights advocates slammed the stance as a dangerous corporate philosophy that rationalizes privatizing natural water sources, aggressively bottling municipal supplies for profit, and pricing impoverished communities out of a life-sustaining resource.</p>
+
       <div class="article-data-box">
-        <h4>Key Public Health Impacts</h4>
+        <h4>Key Public Health Impacts & Global Regulations</h4>
         <ul>
           <li><strong>Over-Dilution Starvation:</strong> Due to extreme poverty, impoverished mothers frequently diluted formula powder with twice as much water to make it last longer, causing severe infant marasmus and malnutrition.</li>
           <li><strong>Water Contamination:</strong> In areas lacking clean municipal drinking water, formula mixed with contaminated water triggered widespread, fatal diarrheal infections in infants.</li>
-          <li><strong>Global Regulation:</strong> The public outcry led directly to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.</li>
+          <li><strong>Global Regulation:</strong> The public outcry over infant formula marketing led directly to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.</li>
         </ul>
       </div>
 
@@ -30,6 +35,7 @@ const articlesData = {
         <h4>Sources & Official Investigations</h4>
         <ul>
           <li><strong>War on Want Report (1974):</strong> <em>"The Baby Killer"</em> investigation into third-world infant malnutrition.</li>
+          <li><strong>Documentary Film (*We Feed the World*):</strong> On-camera statements regarding water privatization and corporate resource control by CEO Peter Brabeck-Letmathe.</li>
           <li><strong>World Health Organization (1981):</strong> <em>International Code of Marketing of Breast-milk Substitutes</em>.</li>
           <li><strong>International Baby Food Action Network (IBFAN):</strong> Ongoing global infant health compliance monitoring.</li>
         </ul>
