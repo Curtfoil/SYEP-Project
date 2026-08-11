@@ -77,7 +77,7 @@ const articlesData = {
 
     <p>In 2026, North Carolina authorities alleged that a police officer improperly used the Flock Safety camera system to search for and monitor his boyfriend's ex-wife. Investigators said the searches were unrelated to any criminal investigation, raising concerns about insider misuse of powerful surveillance technology and the safeguards governing access.</p>
 
-    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Traffic surveillance camera monitoring vehicles" class="article-inline-image">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDTispV3fDUCTgANJ-Nrd3Ao2XpG6rt2wXaLWI1i17Sw&s=10" alt="Traffic surveillance camera monitoring vehicles" class="article-inline-image">
     <span class="image-caption">AI-powered license plate recognition cameras record vehicle movements to assist criminal investigations.</span>
 
     <div class="article-data-box">
