@@ -66,7 +66,7 @@ const articlesData = {
     `
   },
 
-"bigtech": {
+"Flock": {
   title: "Flock Safety AI Camera Network",
   date: "Aug 6, 2026",
   heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
@@ -130,30 +130,40 @@ const articlesData = {
   "amazon": {
     title: "Amazon: Automated Quotas & Injuries",
     date: "Aug 5, 2026",
-    heroImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
+    heroImage: "https://static01.nyt.com/images/2026/08/04/multimedia/04biz-amazon-nj-htwk/04biz-amazon-nj-htwk-superJumbo.jpg?quality=75&auto=webp",
     content: `
-      <p>Amazon's logistics operations rely heavily on automated algorithmic supervision to meet rapid e-commerce shipping timelines. Inside fulfillment centers, human workers are monitored continuously by tracking algorithms that dictate work pace.</p>
+      <p>Amazon's relentless corporate pursuit of rapid 1-day and same-day delivery has transformed its fulfillment network into high-pressure environments dominated by algorithmic management. Behind the polished e-commerce convenience lies a brutal system of digital surveillance that continuously tracks, disciplines, and pushes human workers to physical breaking points—exemplifying how massive conglomerates optimize output at the absolute expense of human well-being.</p>
 
-      <h3>Algorithmic Management & "Time Off Task"</h3>
-      <p>Warehouse scanners measure worker productivity down to the second. Algorithms automatically track "Time Off Task" (TOT). Taking unscheduled bathroom breaks or pausing to catch one's breath generates automated disciplinary warnings that can lead to termination without human managerial intervention.</p>
+      <h3>Algorithmic Management & "Time Off Task" (TOT)</h3>
+      <p>Inside Amazon warehouses, radio-frequency scanners measure worker productivity down to the exact second. Algorithms automatically monitor <strong>"Time Off Task" (TOT)</strong>, penalizing employees for any unassigned pauses. Internal corporate documents leaked through media investigations reveal that accumulating just 120 minutes of TOT in a single day—or crossing strict thresholds over multiple shifts—automatically triggers disciplinary warnings or outright termination without requiring any human managerial discretion. Terrified of algorithmic firing, workers routinely report skipping necessary bathroom breaks, reducing water intake to avoid restroom trips, and standing for hours in pain.</p>
 
       <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&q=80" alt="Warehouse boxes and logistics fulfillment" class="article-inline-image">
-      <span class="image-caption">Punishing scanner quotas drive warehouse injury rates well above industry standards.</span>
+      <span class="image-caption">Exhausting scanner quotas and heavy lifting requirements drive warehouse injury rates far above standard industry norms.</span>
 
       <div class="article-data-box">
-        <h4>OSHA Findings & Worker Safety Metrics</h4>
+        <h4>OSHA Findings, Senate Investigations & Shocking Worker Safety Realities</h4>
         <ul>
-          <li><strong>Elevated Injury Rates:</strong> Official OSHA filings show Amazon fulfillment centers historically record injury rates more than double the national warehousing average.</li>
-          <li><strong>Musculoskeletal Strain:</strong> Repetitive physical demands required to meet quota benchmarks cause severe long-term spinal and joint wear.</li>
+          <li><strong>Skyrocketing Injury Rates:</strong> Federal data compiled by the Occupational Safety and Health Administration (OSHA) and extensive congressional probes, including a landmark Senate Health, Education, Labor, and Pensions (HELP) Committee investigation led by Senator Bernie Sanders, revealed that Amazon fulfillment centers historically record serious injury rates nearly double the national warehousing average.</li>
+          <li><strong>Denial of Proper Medical Care & Data Manipulation:</strong> Federal investigations and Senate findings uncovered multiple instances where Amazon facilities allegedly minimized injury metrics, discouraged workers from seeking external medical care, and utilized on-site first-aid clinics to mask the true severity of workplace accidents. Workers testified that medical staff frequently blamed their personal "fragility" rather than grueling work quotas for severe bodily trauma.</li>
+          <li><strong>Severe Musculoskeletal Strain:</strong> The relentless physical pace required to meet algorithmic performance benchmarks causes widespread, long-term spinal degradation, joint destruction, and chronic repetitive motion injuries that leave workers with permanent mobility limitations.</li>
+        </ul>
+      </div>
+
+      <div class="article-data-box">
+        <h4>Systemic Mega-Corp Tactics: Union Busting & Pervasive Surveillance</h4>
+        <ul>
+          <li><strong>Aggressive Anti-Union Operations:</strong> Investigations by labor boards and watchdog organizations have repeatedly exposed Amazon’s aggressive union-busting infrastructure. Corporations of this scale deploy dedicated anti-union consultants, hold mandatory captive-audience meetings, and utilize internal data tracking tools to preemptively target, isolate, and fire organizers attempting to advocate for safer conditions.</li>
+          <li><strong>Erosion of Privacy via Total Surveillance:</strong> Beyond warehouse scanners, logistics and corporate mega-corps increasingly weaponize advanced artificial intelligence, heat-mapping software, and smart-badge tracking. This creates an atmosphere of constant psychological surveillance where workers feel permanently watched, suppressing freedom of association and compelling total compliance under the threat of sudden job loss.</li>
         </ul>
       </div>
 
       <div class="article-sources-box">
         <h4>Sources & Official Investigations</h4>
         <ul>
-          <li><strong>Occupational Safety and Health Administration (OSHA):</strong> Federal citations and ergonomics inspections (2023).</li>
-          <li><strong>The Washington Post / NYT:</strong> Investigations into Amazon automated termination algorithms.</li>
-          <li><strong>Strategic Organizing Center (SOC):</strong> <em>"The Injury Machine"</em> annual warehouse safety reports.</li>
+          <li><strong>U.S. Senate HELP Committee:</strong> 18-month congressional investigation report (*"The Injury-Productivity Trade-off"*) detailing workplace safety hazards and injury data manipulation at Amazon.</li>
+          <li><strong>U.S. Department of Labor & OSHA:</strong> Federal safety citations, ergonomic inspections, and findings regarding inadequate on-site medical treatment.</li>
+          <li><strong>Investigative Journalism & Advocacy Reports:</strong> Open Markets Institute (*"Eyes Everywhere"*), UNI Global Union, and leaks published by *The Washington Post* and *Vice* tracking surveillance and anti-union strategies.</li>
+          <li><strong>Strategic Organizing Center (SOC):</strong> <em>"The Injury Machine"</em> comprehensive multi-year warehouse safety and injury analyses.</li>
         </ul>
       </div>
     `
