@@ -5,29 +5,24 @@ const articlesData = {
     date: "August 5, 2026",
     heroImage: "https://i.insider.com/4fe22d71eab8ea0e5600001d?width=600&format=jpeg&auto=webp",
     content: `
-      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia. Nestlé focused on these poor countries because sales were slowing down in richer nations like the United States and Europe. To make more money, the company had to convince millions of mothers in developing countries that factory-made formula was healthier and more modern than natural breast milk.</p>
+      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia.</p>
       
       <h3>The "Milk Nurse" Sales Tactics</h3>
       <p>Investigative reports documented that Nestlé employed sales representatives dressed as medical professionals or "milk nurses." These representatives entered maternity wards to hand out free samples of commercial baby formula to mothers immediately after childbirth.</p>
       
-      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder. This created a deadly trap for poor families. Because the formula powder was so expensive, mothers tried to make it last longer by watering it down. This meant the babies did not get enough nutrients and began to starve. Even worse, many villages did not have clean running water. Mixing the formula with polluted water gave the babies severe infections and diarrhea, leading to the tragic deaths of millions of infants.</p>
+      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder.</p>
 
       <blockquote>"They created a commercial reliance on a product that local families could neither afford nor safely prepare."</blockquote>
 
       <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&q=80" alt="Glass of water representing water safety issues" class="article-inline-image">
       <span class="image-caption">Infant formula mixed with unsterilized water led to waterborne illnesses.</span>
 
-      <h3>The Commodification of Water: "Not a Human Right"</h3>
-      <p>Nestlé's disregard for basic human necessities extended far beyond infant nutrition into the global battle over clean water access. In the documentary <em>We Feed the World</em>, former Nestlé CEO and Chairman Peter Brabeck-Letmathe sparked massive international outrage by asserting that water should not be considered a public human right. He famously labeled the viewpoint that every human has a right to water as an "extreme" ideological stance.</p>
-
-      <p>Instead, Brabeck-Letmathe argued that water is a foodstuff with a market value and should be priced like any other commodity to prevent waste. Critics and human rights advocates slammed the stance as a dangerous corporate philosophy that rationalizes privatizing natural water sources, aggressively bottling municipal supplies for profit, and pricing impoverished communities out of a life-sustaining resource.</p>
-
       <div class="article-data-box">
-        <h4>Key Public Health Impacts & Global Regulations</h4>
+        <h4>Key Public Health Impacts</h4>
         <ul>
           <li><strong>Over-Dilution Starvation:</strong> Due to extreme poverty, impoverished mothers frequently diluted formula powder with twice as much water to make it last longer, causing severe infant marasmus and malnutrition.</li>
           <li><strong>Water Contamination:</strong> In areas lacking clean municipal drinking water, formula mixed with contaminated water triggered widespread, fatal diarrheal infections in infants.</li>
-          <li><strong>Global Regulation:</strong> The public outcry over infant formula marketing led directly to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.</li>
+          <li><strong>Global Regulation:</strong> The public outcry led directly to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.</li>
         </ul>
       </div>
 
@@ -35,7 +30,6 @@ const articlesData = {
         <h4>Sources & Official Investigations</h4>
         <ul>
           <li><strong>War on Want Report (1974):</strong> <em>"The Baby Killer"</em> investigation into third-world infant malnutrition.</li>
-          <li><strong>Documentary Film (*We Feed the World*):</strong> On-camera statements regarding water privatization and corporate resource control by CEO Peter Brabeck-Letmathe.</li>
           <li><strong>World Health Organization (1981):</strong> <em>International Code of Marketing of Breast-milk Substitutes</em>.</li>
           <li><strong>International Baby Food Action Network (IBFAN):</strong> Ongoing global infant health compliance monitoring.</li>
         </ul>
@@ -48,10 +42,10 @@ const articlesData = {
     date: "Aug 6, 2026",
     heroImage: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80",
     content: `
-      <p>The transformation of traditional apparel retail into "ultra fast fashion" pioneered by global e commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps This super fast speed comes at a heavy human cost. To make thousands of new clothes so quickly, factory workers are forced to work 75 hours a week with almost no days off. They get paid only a few cents for each item they finish, and recent audits have even found children working in some of these factories. <em>every day</em>.</p>
+      <p>The transformation of traditional apparel retail into "ultra-fast fashion"—pioneered by global e-commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps <em>every day</em>.</p>
 
       <h3>Sub-Living Wages and Factory Labor</h3>
-      <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.</p>
+      <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.Shein's internal audits uncovered multiple instances of child labor within its supply chain, prompting immediate contract terminations for offending suppliers. Labor advocates argue the ultra-fast-fashion business model drives these abuses by forcing suppliers to subcontract to unauthorized workshops, resulting in systemic issues like extreme work hours and unsafe conditions.</p>
 
       <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=800&q=80" alt="Piles of clothes and textile materials" class="article-inline-image">
       <span class="image-caption">Textile waste overload in international landfills resulting from ultra-fast consumption.</span>
@@ -110,108 +104,66 @@ const articlesData = {
   "bigoil": {
     title: "Exxon & The 50-Year Climate Cover-Up",
     date: "Aug 6, 2026",
-    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
-    content: `
-      <p>Flock cameras have become a topic of debate because they raise concerns about privacy, data security, and public oversight. While these automated license plate reader cameras are designed to help law enforcement investigate crimes and locate stolen vehicles, critics argue that they can collect large amounts of data on people who are not suspected of any wrongdoing. There are also questions about how long the data is stored, who has access to it, and whether it could be misused or shared without proper safeguards. Supporters believe the cameras improve public safety and help solve crimes more efficiently, while opponents emphasize the importance of protecting civil liberties and ensuring that clear policies, transparency, and accountability are in place to prevent abuse.</p>
-
-      <h3>The Cambridge Analytica Precedent</h3>  
-      <p>In 2018, whistleblowers revealed that political consulting firm Cambridge Analytica harvested private data from over 87 million Facebook users without explicit consent. The firm used psychological profiling algorithms to micro-target voters with customized disinformation during democratic elections.</p>
-
-      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Data analytics screen and network nodes" class="article-inline-image">
-      <span class="image-caption">Behavioral data profiles are bought and sold instantly in real-time ad exchanges.</span>
-
-      <div class="article-data-box">
-        <h4>Mechanisms of Data Extraction</h4>
-        <ul>
-          <li><strong>Cross-Site Pixels:</strong> Hidden tracking scripts embedded across millions of third-party websites log user activity even when individuals are logged out.</li>
-          <li><strong>Algorithmic Addiction:</strong> Recommendation engines are explicitly optimized to maximize screen time by prioritizing outrageous or divisive media.</li>
-        </ul>
-      </div>
-
-      <div class="article-sources-box">
-        <h4>Sources & Official Investigations</h4>
-        <ul>
-          <li><strong>Federal Trade Commission (FTC):</strong> $5 Billion penalty settlement against Meta/Facebook (2019).</li>
-          <li><strong>The New York Times:</strong> <em>"The Facebook Dilemma & Cambridge Analytica"</em> series.</li>
-          <li><strong>Shoshana Zuboff:</strong> <em>"The Age of Surveillance Capitalism"</em> (Harvard Business School).</li>
-        </ul>
-      </div>
-    `
-  },
-
-  "DataCenters": {
-    title: "Impact of data Centers on Communities",
-    date: "April 02, 2026",
     heroImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80",
     content: `
-      <p>Data centers can have both positive and negative impacts on communities. They can create jobs, increase local tax revenue, improve infrastructure, and attract new businesses. However, data centers also use large amounts of electricity and, in some cases, water for cooling, which can put pressure on local resources. They may also contribute to noise, traffic, land use changes, and environmental concerns. Overall, data centers can benefit communities economically, but careful planning is needed to reduce their environmental and social impacts.</p>
+      <p>In 2015, investigative journalists uncovered internal corporate memos showing that Exxon’s senior scientists had accurately calculated and warned executives about global climate change caused by fossil fuels as early as 1977.</p>
 
-      <h3>Social Considerations</h3>
-      <p>Data centers can have several social considerations for nearby communities. Residents may have concerns about increased traffic, noise from cooling systems and generators, and changes to the appearance of their neighborhood. Communities may also question whether data centers provide enough local jobs and whether the benefits, such as tax revenue and improved infrastructure, are shared fairly. It is important for data center companies and local governments to communicate with residents, listen to their concerns, and make decisions that balance economic growth with the needs of the community.</p>
+      <h3>Public Denial vs. Private Science</h3>
+      <p>Exxon's internal climate models accurately predicted temperature rises and atmospheric carbon thresholds decades in advance. However, rather than transitioning energy portfolios, corporate management spent tens of millions funding climate denial think tanks, lobbying groups, and public relations campaigns designed to sow public doubt.</p>
 
-      <blockquote>"Data centers can contribute to carbon emissions when the electricity they use comes from fossil fuels."</blockquote>
+      <blockquote>"Exxon accurately modeled climate change 50 years ago, then spent decades publicly claiming climate science was uncertain."</blockquote>
 
-      <img src="https://tse2.mm.bing.net/th/id/OIP.21ZJ8Lu9fgdA-FEeZrQuSQHaC3?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+      <img src="https://images.unsplash.com/photo-1569163139599-0f4517e36f31?w=800&q=80" alt="Parched cracked earth representing climate impact" class="article-inline-image">
+      <span class="image-caption">Decades of orchestrated climate denial delayed global clean energy policy transitions.</span>
 
       <div class="article-sources-box">
         <h4>Sources & Official Investigations</h4>
-        
-    <ul>
-        <li>
-            <a href="https://www.energy.gov/" target="_blank">
-                U.S. Department of Energy
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.epa.gov/" target="_blank">
-                U.S. Environmental Protection Agency
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.iea.org/" target="_blank">
-                International Energy Agency
-            </a>
-        </li>
-
-        <li>
-            <a href="https://www.nist.gov/" target="_blank">
-                National Institute of Standards and Technology
-            </a>
-        </li>
-    </ul>
+        <ul>
+          <li><strong>InsideClimate News (2015):</strong> <em>"Exxon: The Road Not Taken"</em> Pulitzer Prize finalist investigation.</li>
+          <li><strong>Science Journal Study (2023):</strong> <em>"Assessing ExxonMobil's Global Warming Projections"</em> (Supran & Oreskes, Harvard University).</li>
+          <li><strong>U.S. House Oversight Committee:</strong> Investigation into Fossil Fuel Disinformation (2022).</li>
+        </ul>
       </div>
     `
   },
 
   "amazon": {
     title: "Amazon: Automated Quotas & Injuries",
-    date: "February 18, 2026",
-    heroImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
+    date: "Aug 5, 2026",
+    heroImage: "https://static01.nyt.com/images/2026/08/04/multimedia/04biz-amazon-nj-htwk/04biz-amazon-nj-htwk-superJumbo.jpg?quality=75&auto=webp",
     content: `
-      <p>Amazon's logistics operations rely heavily on automated algorithmic supervision to meet rapid e-commerce shipping timelines. Inside fulfillment centers, human workers are monitored continuously by tracking algorithms that dictate work pace.</p>
+      <p>Amazon's relentless corporate pursuit of rapid 1-day and same-day delivery has transformed its fulfillment network into high-pressure environments dominated by algorithmic management. Behind the polished e-commerce convenience lies a brutal system of digital surveillance that continuously tracks, disciplines, and pushes human workers to physical breaking points—exemplifying how massive conglomerates optimize output at the absolute expense of human well-being.</p>
 
-      <h3>Algorithmic Management & "Time Off Task"</h3>
-      <p>Warehouse scanners measure worker productivity down to the second. Algorithms automatically track "Time Off Task" (TOT). Taking unscheduled bathroom breaks or pausing to catch one's breath generates automated disciplinary warnings that can lead to termination without human managerial intervention.</p>
+      <h3>Algorithmic Management & "Time Off Task" (TOT)</h3>
+      <p>Inside Amazon warehouses, radio-frequency scanners measure worker productivity down to the exact second. Algorithms automatically monitor <strong>"Time Off Task" (TOT)</strong>, penalizing employees for any unassigned pauses. Internal corporate documents leaked through media investigations reveal that accumulating just 120 minutes of TOT in a single day—or crossing strict thresholds over multiple shifts—automatically triggers disciplinary warnings or outright termination without requiring any human managerial discretion. Terrified of algorithmic firing, workers routinely report skipping necessary bathroom breaks, reducing water intake to avoid restroom trips, and standing for hours in pain.</p>
 
       <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&q=80" alt="Warehouse boxes and logistics fulfillment" class="article-inline-image">
-      <span class="image-caption">Punishing scanner quotas drive warehouse injury rates well above industry standards.</span>
+      <span class="image-caption">Exhausting scanner quotas and heavy lifting requirements drive warehouse injury rates far above standard industry norms.</span>
 
       <div class="article-data-box">
-        <h4>OSHA Findings & Worker Safety Metrics</h4>
+        <h4>OSHA Findings, Senate Investigations & Shocking Worker Safety Realities</h4>
         <ul>
-          <li><strong>Elevated Injury Rates:</strong> Official OSHA filings show Amazon fulfillment centers historically record injury rates more than double the national warehousing average.</li>
-          <li><strong>Musculoskeletal Strain:</strong> Repetitive physical demands required to meet quota benchmarks cause severe long-term spinal and joint wear.</li>
+          <li><strong>Skyrocketing Injury Rates:</strong> Federal data compiled by the Occupational Safety and Health Administration (OSHA) and extensive congressional probes, including a landmark Senate Health, Education, Labor, and Pensions (HELP) Committee investigation led by Senator Bernie Sanders, revealed that Amazon fulfillment centers historically record serious injury rates nearly double the national warehousing average.</li>
+          <li><strong>Denial of Proper Medical Care & Data Manipulation:</strong> Federal investigations and Senate findings uncovered multiple instances where Amazon facilities allegedly minimized injury metrics, discouraged workers from seeking external medical care, and utilized on-site first-aid clinics to mask the true severity of workplace accidents. Workers testified that medical staff frequently blamed their personal "fragility" rather than grueling work quotas for severe bodily trauma.</li>
+          <li><strong>Severe Musculoskeletal Strain:</strong> The relentless physical pace required to meet algorithmic performance benchmarks causes widespread, long-term spinal degradation, joint destruction, and chronic repetitive motion injuries that leave workers with permanent mobility limitations.</li>
+        </ul>
+      </div>
+
+      <div class="article-data-box">
+        <h4>Systemic Mega-Corp Tactics: Union Busting & Pervasive Surveillance</h4>
+        <ul>
+          <li><strong>Aggressive Anti-Union Operations:</strong> Investigations by labor boards and watchdog organizations have repeatedly exposed Amazon’s aggressive union-busting infrastructure. Corporations of this scale deploy dedicated anti-union consultants, hold mandatory captive-audience meetings, and utilize internal data tracking tools to preemptively target, isolate, and fire organizers attempting to advocate for safer conditions.</li>
+          <li><strong>Erosion of Privacy via Total Surveillance:</strong> Beyond warehouse scanners, logistics and corporate mega-corps increasingly weaponize advanced artificial intelligence, heat-mapping software, and smart-badge tracking. This creates an atmosphere of constant psychological surveillance where workers feel permanently watched, suppressing freedom of association and compelling total compliance under the threat of sudden job loss.</li>
         </ul>
       </div>
 
       <div class="article-sources-box">
         <h4>Sources & Official Investigations</h4>
         <ul>
-          <li><strong>Occupational Safety and Health Administration (OSHA):</strong> Federal citations and ergonomics inspections (2023).</li>
-          <li><strong>The Washington Post / NYT:</strong> Investigations into Amazon automated termination algorithms.</li>
-          <li><strong>Strategic Organizing Center (SOC):</strong> <em>"The Injury Machine"</em> annual warehouse safety reports.</li>
+          <li><strong>U.S. Senate HELP Committee:</strong> 18-month congressional investigation report (*"The Injury-Productivity Trade-off"*) detailing workplace safety hazards and injury data manipulation at Amazon.</li>
+          <li><strong>U.S. Department of Labor & OSHA:</strong> Federal safety citations, ergonomic inspections, and findings regarding inadequate on-site medical treatment.</li>
+          <li><strong>Investigative Journalism & Advocacy Reports:</strong> Open Markets Institute (*"Eyes Everywhere"*), UNI Global Union, and leaks published by *The Washington Post* and *Vice* tracking surveillance and anti-union strategies.</li>
+          <li><strong>Strategic Organizing Center (SOC):</strong> <em>"The Injury Machine"</em> comprehensive multi-year warehouse safety and injury analyses.</li>
         </ul>
       </div>
     `
