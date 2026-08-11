@@ -10,7 +10,7 @@ const articlesData = {
       <h3>The "Milk Nurse" Sales Tactics</h3>
       <p>Investigative reports documented that Nestlé employed sales representatives dressed as medical professionals or "milk nurses." These representatives entered maternity wards to hand out free samples of commercial baby formula to mothers immediately after childbirth.</p>
       
-      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder.</p>
+      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder. This created a deadly trap for poor families. Because the formula powder was so expensive, mothers tried to make it last longer by watering it down. This meant the babies did not get enough nutrients and began to starve. Even worse, many villages did not have clean running water. Mixing the formula with polluted water gave the babies severe infections and diarrhea, leading to the tragic deaths of millions of infants.</p>
 
       <blockquote>"They created a commercial reliance on a product that local families could neither afford nor safely prepare."</blockquote>
 
