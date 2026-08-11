@@ -110,7 +110,7 @@ const articlesData = {
   "DataCenters": {
     title: "Impact of data Centers on Communities",
     date: "April 02, 2026",
-    heroImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80",
+    heroImage: "https://buildings.honeywell.com/content/dam/hbtbt/en/images/horizontal/industries-data-centers-2880x1440.jpg",
     content: `
       <p>Data centers can have both positive and negative impacts on communities. They can create jobs, increase local tax revenue, improve infrastructure, and attract new businesses. However, data centers also use large amounts of electricity and, in some cases, water for cooling, which can put pressure on local resources. They may also contribute to noise, traffic, land use changes, and environmental concerns. Overall, data centers can benefit communities economically, but careful planning is needed to reduce their environmental and social impacts.</p>
 
