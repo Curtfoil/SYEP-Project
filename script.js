@@ -45,7 +45,7 @@ const articlesData = {
       <p>The transformation of traditional apparel retail into "ultra-fast fashion"—pioneered by global e-commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps <em>every day</em>.</p>
 
       <h3>Sub-Living Wages and Factory Labor</h3>
-      <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.Shein's internal audits uncovered multiple instances of child labor within its supply chain, prompting immediate contract terminations for offending suppliers. Labor advocates argue the ultra-fast-fashion business model drives these abuses by forcing suppliers to subcontract to unauthorized workshops, resulting in systemic issues like extreme work hours and unsafe conditions.</p>
+      <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.</p>
 
       <img src="https://images.unsplash.com/photo-1532453288672-3a27e9be9efd?w=800&q=80" alt="Piles of clothes and textile materials" class="article-inline-image">
       <span class="image-caption">Textile waste overload in international landfills resulting from ultra-fast consumption.</span>
@@ -66,104 +66,111 @@ const articlesData = {
     `
   },
 
-"Flock": {
-  title: "Flock Safety AI Camera Network",
-  date: "Aug 6, 2026",
-  heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
-  content: `
-    <p>Flock Safety operates a nationwide network of AI-powered automatic license plate recognition (ALPR) cameras used by thousands of law enforcement agencies and private communities. The cameras capture license plates, vehicle characteristics, and the time and location of sightings, allowing investigators to search for vehicles connected to crimes.</p>
-
-    <h3>North Carolina officer allegedly used Flock cameras for personal surveillance</h3>
-
-    <p>In 2026, North Carolina authorities alleged that a police officer improperly used the Flock Safety camera system to search for and monitor his boyfriend's ex-wife. Investigators said the searches were unrelated to any criminal investigation, raising concerns about insider misuse of powerful surveillance technology and the safeguards governing access.</p>
-
-    <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Traffic surveillance camera monitoring vehicles" class="article-inline-image">
-    <span class="image-caption">AI-powered license plate recognition cameras record vehicle movements to assist criminal investigations.</span>
-
-    <div class="article-data-box">
-      <h4>How Flock Safety Cameras Work</h4>
-      <ul>
-        <li><strong>Automatic License Plate Recognition:</strong> Cameras capture license plates along with vehicle color, make, model, and distinguishing features.</li>
-        <li><strong>Vehicle Search:</strong> Officers can search historical sightings to determine where a vehicle has traveled.</li>
-        <li><strong>Real-Time Alerts:</strong> Agencies can receive notifications when a vehicle associated with a wanted person, stolen vehicle, or active investigation passes a camera.</li>
-        <li><strong>Data Retention:</strong> Flock states that customer data is typically retained for 30 days unless preserved as evidence or otherwise required by law.</li>
-      </ul>
-    </div>
-
-    <div class="article-sources-box">
-      <h4>Sources & Reporting</h4>
-      <ul>
-        <li><strong>Flock Safety:</strong> Official documentation on ALPR technology, transparency, and privacy practices.</li>
-        <li><strong>Electronic Frontier Foundation (EFF):</strong> Analysis of privacy implications surrounding automated license plate readers.</li>
-        <li><strong>Local News Reporting:</strong> Coverage of the North Carolina investigation involving alleged misuse of the Flock camera system.</li>
-      </ul>
-    </div>
-  `
-},
-
-  "bigoil": {
-    title: "Exxon & The 50-Year Climate Cover-Up",
+  "bigtech": {
+    title: "Flock Safety surveillance",
     date: "Aug 6, 2026",
-    heroImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80",
+    heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
     content: `
-      <p>In 2015, investigative journalists uncovered internal corporate memos showing that Exxon’s senior scientists had accurately calculated and warned executives about global climate change caused by fossil fuels as early as 1977.</p>
+      <p>Flock cameras have become a topic of debate because they raise concerns about privacy, data security, and public oversight. While these automated license plate reader cameras are designed to help law enforcement investigate crimes and locate stolen vehicles, critics argue that they can collect large amounts of data on people who are not suspected of any wrongdoing. There are also questions about how long the data is stored, who has access to it, and whether it could be misused or shared without proper safeguards. Supporters believe the cameras improve public safety and help solve crimes more efficiently, while opponents emphasize the importance of protecting civil liberties and ensuring that clear policies, transparency, and accountability are in place to prevent abuse.</p>
 
-      <h3>Public Denial vs. Private Science</h3>
-      <p>Exxon's internal climate models accurately predicted temperature rises and atmospheric carbon thresholds decades in advance. However, rather than transitioning energy portfolios, corporate management spent tens of millions funding climate denial think tanks, lobbying groups, and public relations campaigns designed to sow public doubt.</p>
+      <h3>The Cambridge Analytica Precedent</h3>  
+      <p>In 2018, whistleblowers revealed that political consulting firm Cambridge Analytica harvested private data from over 87 million Facebook users without explicit consent. The firm used psychological profiling algorithms to micro-target voters with customized disinformation during democratic elections.</p>
 
-      <blockquote>"Exxon accurately modeled climate change 50 years ago, then spent decades publicly claiming climate science was uncertain."</blockquote>
+      <img src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80" alt="Data analytics screen and network nodes" class="article-inline-image">
+      <span class="image-caption">Behavioral data profiles are bought and sold instantly in real-time ad exchanges.</span>
 
-      <img src="https://images.unsplash.com/photo-1569163139599-0f4517e36f31?w=800&q=80" alt="Parched cracked earth representing climate impact" class="article-inline-image">
-      <span class="image-caption">Decades of orchestrated climate denial delayed global clean energy policy transitions.</span>
+      <div class="article-data-box">
+        <h4>Mechanisms of Data Extraction</h4>
+        <ul>
+          <li><strong>Cross-Site Pixels:</strong> Hidden tracking scripts embedded across millions of third-party websites log user activity even when individuals are logged out.</li>
+          <li><strong>Algorithmic Addiction:</strong> Recommendation engines are explicitly optimized to maximize screen time by prioritizing outrageous or divisive media.</li>
+        </ul>
+      </div>
 
       <div class="article-sources-box">
         <h4>Sources & Official Investigations</h4>
         <ul>
-          <li><strong>InsideClimate News (2015):</strong> <em>"Exxon: The Road Not Taken"</em> Pulitzer Prize finalist investigation.</li>
-          <li><strong>Science Journal Study (2023):</strong> <em>"Assessing ExxonMobil's Global Warming Projections"</em> (Supran & Oreskes, Harvard University).</li>
-          <li><strong>U.S. House Oversight Committee:</strong> Investigation into Fossil Fuel Disinformation (2022).</li>
+          <li><strong>Federal Trade Commission (FTC):</strong> $5 Billion penalty settlement against Meta/Facebook (2019).</li>
+          <li><strong>The New York Times:</strong> <em>"The Facebook Dilemma & Cambridge Analytica"</em> series.</li>
+          <li><strong>Shoshana Zuboff:</strong> <em>"The Age of Surveillance Capitalism"</em> (Harvard Business School).</li>
         </ul>
+      </div>
+    `
+  },
+
+  "DataCenters": {
+    title: "Impact of data Centers on Communities",
+    date: "April 02, 2026",
+    heroImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80",
+    content: `
+      <p>Data centers can have both positive and negative impacts on communities. They can create jobs, increase local tax revenue, improve infrastructure, and attract new businesses. However, data centers also use large amounts of electricity and, in some cases, water for cooling, which can put pressure on local resources. They may also contribute to noise, traffic, land use changes, and environmental concerns. Overall, data centers can benefit communities economically, but careful planning is needed to reduce their environmental and social impacts.</p>
+
+      <h3>Social Considerations</h3>
+      <p>Data centers can have several social considerations for nearby communities. Residents may have concerns about increased traffic, noise from cooling systems and generators, and changes to the appearance of their neighborhood. Communities may also question whether data centers provide enough local jobs and whether the benefits, such as tax revenue and improved infrastructure, are shared fairly. It is important for data center companies and local governments to communicate with residents, listen to their concerns, and make decisions that balance economic growth with the needs of the community.</p>
+
+      <blockquote>"Data centers can contribute to carbon emissions when the electricity they use comes from fossil fuels."</blockquote>
+
+      <img src="https://tse2.mm.bing.net/th/id/OIP.21ZJ8Lu9fgdA-FEeZrQuSQHaC3?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
+
+      <div class="article-sources-box">
+        <h4>Sources & Official Investigations</h4>
+        
+    <ul>
+        <li>
+            <a href="https://www.energy.gov/" target="_blank">
+                U.S. Department of Energy
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.epa.gov/" target="_blank">
+                U.S. Environmental Protection Agency
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.iea.org/" target="_blank">
+                International Energy Agency
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.nist.gov/" target="_blank">
+                National Institute of Standards and Technology
+            </a>
+        </li>
+    </ul>
       </div>
     `
   },
 
   "amazon": {
     title: "Amazon: Automated Quotas & Injuries",
-    date: "Aug 5, 2026",
-    heroImage: "https://static01.nyt.com/images/2026/08/04/multimedia/04biz-amazon-nj-htwk/04biz-amazon-nj-htwk-superJumbo.jpg?quality=75&auto=webp",
+    date: "February 18, 2026",
+    heroImage: "https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?w=1200&q=80",
     content: `
-      <p>Amazon's relentless corporate pursuit of rapid 1-day and same-day delivery has transformed its fulfillment network into high-pressure environments dominated by algorithmic management. Behind the polished e-commerce convenience lies a brutal system of digital surveillance that continuously tracks, disciplines, and pushes human workers to physical breaking points—exemplifying how massive conglomerates optimize output at the absolute expense of human well-being.</p>
+      <p>Amazon's logistics operations rely heavily on automated algorithmic supervision to meet rapid e-commerce shipping timelines. Inside fulfillment centers, human workers are monitored continuously by tracking algorithms that dictate work pace.</p>
 
-      <h3>Algorithmic Management & "Time Off Task" (TOT)</h3>
-      <p>Inside Amazon warehouses, radio-frequency scanners measure worker productivity down to the exact second. Algorithms automatically monitor <strong>"Time Off Task" (TOT)</strong>, penalizing employees for any unassigned pauses. Internal corporate documents leaked through media investigations reveal that accumulating just 120 minutes of TOT in a single day—or crossing strict thresholds over multiple shifts—automatically triggers disciplinary warnings or outright termination without requiring any human managerial discretion. Terrified of algorithmic firing, workers routinely report skipping necessary bathroom breaks, reducing water intake to avoid restroom trips, and standing for hours in pain.</p>
+      <h3>Algorithmic Management & "Time Off Task"</h3>
+      <p>Warehouse scanners measure worker productivity down to the second. Algorithms automatically track "Time Off Task" (TOT). Taking unscheduled bathroom breaks or pausing to catch one's breath generates automated disciplinary warnings that can lead to termination without human managerial intervention.</p>
 
       <img src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?w=800&q=80" alt="Warehouse boxes and logistics fulfillment" class="article-inline-image">
-      <span class="image-caption">Exhausting scanner quotas and heavy lifting requirements drive warehouse injury rates far above standard industry norms.</span>
+      <span class="image-caption">Punishing scanner quotas drive warehouse injury rates well above industry standards.</span>
 
       <div class="article-data-box">
-        <h4>OSHA Findings, Senate Investigations & Shocking Worker Safety Realities</h4>
+        <h4>OSHA Findings & Worker Safety Metrics</h4>
         <ul>
-          <li><strong>Skyrocketing Injury Rates:</strong> Federal data compiled by the Occupational Safety and Health Administration (OSHA) and extensive congressional probes, including a landmark Senate Health, Education, Labor, and Pensions (HELP) Committee investigation led by Senator Bernie Sanders, revealed that Amazon fulfillment centers historically record serious injury rates nearly double the national warehousing average.</li>
-          <li><strong>Denial of Proper Medical Care & Data Manipulation:</strong> Federal investigations and Senate findings uncovered multiple instances where Amazon facilities allegedly minimized injury metrics, discouraged workers from seeking external medical care, and utilized on-site first-aid clinics to mask the true severity of workplace accidents. Workers testified that medical staff frequently blamed their personal "fragility" rather than grueling work quotas for severe bodily trauma.</li>
-          <li><strong>Severe Musculoskeletal Strain:</strong> The relentless physical pace required to meet algorithmic performance benchmarks causes widespread, long-term spinal degradation, joint destruction, and chronic repetitive motion injuries that leave workers with permanent mobility limitations.</li>
-        </ul>
-      </div>
-
-      <div class="article-data-box">
-        <h4>Systemic Mega-Corp Tactics: Union Busting & Pervasive Surveillance</h4>
-        <ul>
-          <li><strong>Aggressive Anti-Union Operations:</strong> Investigations by labor boards and watchdog organizations have repeatedly exposed Amazon’s aggressive union-busting infrastructure. Corporations of this scale deploy dedicated anti-union consultants, hold mandatory captive-audience meetings, and utilize internal data tracking tools to preemptively target, isolate, and fire organizers attempting to advocate for safer conditions.</li>
-          <li><strong>Erosion of Privacy via Total Surveillance:</strong> Beyond warehouse scanners, logistics and corporate mega-corps increasingly weaponize advanced artificial intelligence, heat-mapping software, and smart-badge tracking. This creates an atmosphere of constant psychological surveillance where workers feel permanently watched, suppressing freedom of association and compelling total compliance under the threat of sudden job loss.</li>
+          <li><strong>Elevated Injury Rates:</strong> Official OSHA filings show Amazon fulfillment centers historically record injury rates more than double the national warehousing average.</li>
+          <li><strong>Musculoskeletal Strain:</strong> Repetitive physical demands required to meet quota benchmarks cause severe long-term spinal and joint wear.</li>
         </ul>
       </div>
 
       <div class="article-sources-box">
         <h4>Sources & Official Investigations</h4>
         <ul>
-          <li><strong>U.S. Senate HELP Committee:</strong> 18-month congressional investigation report (*"The Injury-Productivity Trade-off"*) detailing workplace safety hazards and injury data manipulation at Amazon.</li>
-          <li><strong>U.S. Department of Labor & OSHA:</strong> Federal safety citations, ergonomic inspections, and findings regarding inadequate on-site medical treatment.</li>
-          <li><strong>Investigative Journalism & Advocacy Reports:</strong> Open Markets Institute (*"Eyes Everywhere"*), UNI Global Union, and leaks published by *The Washington Post* and *Vice* tracking surveillance and anti-union strategies.</li>
-          <li><strong>Strategic Organizing Center (SOC):</strong> <em>"The Injury Machine"</em> comprehensive multi-year warehouse safety and injury analyses.</li>
+          <li><strong>Occupational Safety and Health Administration (OSHA):</strong> Federal citations and ergonomics inspections (2023).</li>
+          <li><strong>The Washington Post / NYT:</strong> Investigations into Amazon automated termination algorithms.</li>
+          <li><strong>Strategic Organizing Center (SOC):</strong> <em>"The Injury Machine"</em> annual warehouse safety reports.</li>
         </ul>
       </div>
     `
