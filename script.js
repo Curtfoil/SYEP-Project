@@ -101,28 +101,48 @@ const articlesData = {
   `
 },
 
-  "bigoil": {
-    title: "Exxon & The 50-Year Climate Cover-Up",
-    date: "Aug 6, 2026",
+  "DataCenters": {
+    title: "Impact of data Centers on Communities",
+    date: "April 02, 2026",
     heroImage: "https://images.unsplash.com/photo-1518709268805-4e9042af9f23?w=1200&q=80",
     content: `
-      <p>In 2015, investigative journalists uncovered internal corporate memos showing that Exxon’s senior scientists had accurately calculated and warned executives about global climate change caused by fossil fuels as early as 1977.</p>
+      <p>Data centers can have both positive and negative impacts on communities. They can create jobs, increase local tax revenue, improve infrastructure, and attract new businesses. However, data centers also use large amounts of electricity and, in some cases, water for cooling, which can put pressure on local resources. They may also contribute to noise, traffic, land use changes, and environmental concerns. Overall, data centers can benefit communities economically, but careful planning is needed to reduce their environmental and social impacts.</p>
 
-      <h3>Public Denial vs. Private Science</h3>
-      <p>Exxon's internal climate models accurately predicted temperature rises and atmospheric carbon thresholds decades in advance. However, rather than transitioning energy portfolios, corporate management spent tens of millions funding climate denial think tanks, lobbying groups, and public relations campaigns designed to sow public doubt.</p>
+      <h3>Social Considerations</h3>
+      <p>Data centers can have several social considerations for nearby communities. Residents may have concerns about increased traffic, noise from cooling systems and generators, and changes to the appearance of their neighborhood. Communities may also question whether data centers provide enough local jobs and whether the benefits, such as tax revenue and improved infrastructure, are shared fairly. It is important for data center companies and local governments to communicate with residents, listen to their concerns, and make decisions that balance economic growth with the needs of the community.</p>
 
-      <blockquote>"Exxon accurately modeled climate change 50 years ago, then spent decades publicly claiming climate science was uncertain."</blockquote>
+      <blockquote>"Data centers can contribute to carbon emissions when the electricity they use comes from fossil fuels."</blockquote>
 
-      <img src="https://images.unsplash.com/photo-1569163139599-0f4517e36f31?w=800&q=80" alt="Parched cracked earth representing climate impact" class="article-inline-image">
-      <span class="image-caption">Decades of orchestrated climate denial delayed global clean energy policy transitions.</span>
+      <img src="https://tse2.mm.bing.net/th/id/OIP.21ZJ8Lu9fgdA-FEeZrQuSQHaC3?r=0&rs=1&pid=ImgDetMain&o=7&rm=3" 
 
       <div class="article-sources-box">
         <h4>Sources & Official Investigations</h4>
-        <ul>
-          <li><strong>InsideClimate News (2015):</strong> <em>"Exxon: The Road Not Taken"</em> Pulitzer Prize finalist investigation.</li>
-          <li><strong>Science Journal Study (2023):</strong> <em>"Assessing ExxonMobil's Global Warming Projections"</em> (Supran & Oreskes, Harvard University).</li>
-          <li><strong>U.S. House Oversight Committee:</strong> Investigation into Fossil Fuel Disinformation (2022).</li>
-        </ul>
+        
+    <ul>
+        <li>
+            <a href="https://www.energy.gov/" target="_blank">
+                U.S. Department of Energy
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.epa.gov/" target="_blank">
+                U.S. Environmental Protection Agency
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.iea.org/" target="_blank">
+                International Energy Agency
+            </a>
+        </li>
+
+        <li>
+            <a href="https://www.nist.gov/" target="_blank">
+                National Institute of Standards and Technology
+            </a>
+        </li>
+    </ul>
       </div>
     `
   },
