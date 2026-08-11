@@ -5,24 +5,29 @@ const articlesData = {
     date: "August 5, 2026",
     heroImage: "https://i.insider.com/4fe22d71eab8ea0e5600001d?width=600&format=jpeg&auto=webp",
     content: `
-      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia.</p>
+      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia. Nestlé focused on these poor countries because sales were slowing down in richer nations like the United States and Europe. To make more money, the company had to convince millions of mothers in developing countries that factory-made formula was healthier and more modern than natural breast milk.</p>
       
       <h3>The "Milk Nurse" Sales Tactics</h3>
       <p>Investigative reports documented that Nestlé employed sales representatives dressed as medical professionals or "milk nurses." These representatives entered maternity wards to hand out free samples of commercial baby formula to mothers immediately after childbirth.</p>
       
-      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder.</p>
+      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder. This created a deadly trap for poor families. Because the formula powder was so expensive, mothers tried to make it last longer by watering it down. This meant the babies did not get enough nutrients and began to starve. Even worse, many villages did not have clean running water. Mixing the formula with polluted water gave the babies severe infections and diarrhea, leading to the tragic deaths of millions of infants.</p>
 
       <blockquote>"They created a commercial reliance on a product that local families could neither afford nor safely prepare."</blockquote>
 
       <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?w=800&q=80" alt="Glass of water representing water safety issues" class="article-inline-image">
       <span class="image-caption">Infant formula mixed with unsterilized water led to waterborne illnesses.</span>
 
+      <h3>The Commodification of Water: "Not a Human Right"</h3>
+      <p>Nestlé's disregard for basic human necessities extended far beyond infant nutrition into the global battle over clean water access. In the documentary <em>We Feed the World</em>, former Nestlé CEO and Chairman Peter Brabeck-Letmathe sparked massive international outrage by asserting that water should not be considered a public human right. He famously labeled the viewpoint that every human has a right to water as an "extreme" ideological stance.</p>
+
+      <p>Instead, Brabeck-Letmathe argued that water is a foodstuff with a market value and should be priced like any other commodity to prevent waste. Critics and human rights advocates slammed the stance as a dangerous corporate philosophy that rationalizes privatizing natural water sources, aggressively bottling municipal supplies for profit, and pricing impoverished communities out of a life-sustaining resource.</p>
+
       <div class="article-data-box">
-        <h4>Key Public Health Impacts</h4>
+        <h4>Key Public Health Impacts & Global Regulations</h4>
         <ul>
           <li><strong>Over-Dilution Starvation:</strong> Due to extreme poverty, impoverished mothers frequently diluted formula powder with twice as much water to make it last longer, causing severe infant marasmus and malnutrition.</li>
           <li><strong>Water Contamination:</strong> In areas lacking clean municipal drinking water, formula mixed with contaminated water triggered widespread, fatal diarrheal infections in infants.</li>
-          <li><strong>Global Regulation:</strong> The public outcry led directly to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.</li>
+          <li><strong>Global Regulation:</strong> The public outcry over infant formula marketing led directly to the 1981 WHO International Code of Marketing of Breast-milk Substitutes.</li>
         </ul>
       </div>
 
@@ -30,6 +35,7 @@ const articlesData = {
         <h4>Sources & Official Investigations</h4>
         <ul>
           <li><strong>War on Want Report (1974):</strong> <em>"The Baby Killer"</em> investigation into third-world infant malnutrition.</li>
+          <li><strong>Documentary Film (*We Feed the World*):</strong> On-camera statements regarding water privatization and corporate resource control by CEO Peter Brabeck-Letmathe.</li>
           <li><strong>World Health Organization (1981):</strong> <em>International Code of Marketing of Breast-milk Substitutes</em>.</li>
           <li><strong>International Baby Food Action Network (IBFAN):</strong> Ongoing global infant health compliance monitoring.</li>
         </ul>
@@ -42,7 +48,7 @@ const articlesData = {
     date: "Aug 6, 2026",
     heroImage: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80",
     content: `
-      <p>The transformation of traditional apparel retail into "ultra-fast fashion"—pioneered by global e-commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps <em>every day</em>.</p>
+      <p>The transformation of traditional apparel retail into "ultra fast fashion" pioneered by global e commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps This super fast speed comes at a heavy human cost. To make thousands of new clothes so quickly, factory workers are forced to work 75 hours a week with almost no days off. They get paid only a few cents for each item they finish, and recent audits have even found children working in some of these factories. <em>every day</em>.</p>
 
       <h3>Sub-Living Wages and Factory Labor</h3>
       <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.</p>
@@ -66,8 +72,43 @@ const articlesData = {
     `
   },
 
-  "bigtech": {
-    title: "Flock Safety surveillance",
+"Flock": {
+  title: "Flock Safety AI Camera Network",
+  date: "Aug 6, 2026",
+  heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
+  content: `
+    <p>Flock Safety operates a nationwide network of AI-powered automatic license plate recognition (ALPR) cameras used by thousands of law enforcement agencies and private communities. The cameras capture license plates, vehicle characteristics, and the time and location of sightings, allowing investigators to search for vehicles connected to crimes.</p>
+
+    <h3>North Carolina officer allegedly used Flock cameras for personal surveillance</h3>
+
+    <p>In 2026, North Carolina authorities alleged that a police officer improperly used the Flock Safety camera system to search for and monitor his boyfriend's ex-wife. Investigators said the searches were unrelated to any criminal investigation, raising concerns about insider misuse of powerful surveillance technology and the safeguards governing access.</p>
+
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDTispV3fDUCTgANJ-Nrd3Ao2XpG6rt2wXaLWI1i17Sw&s=10" alt="Traffic surveillance camera monitoring vehicles" class="article-inline-image">
+    <span class="image-caption">AI-powered license plate recognition cameras record vehicle movements to assist criminal investigations.</span>
+
+    <div class="article-data-box">
+      <h4>How Flock Safety Cameras Work</h4>
+      <ul>
+        <li><strong>Automatic License Plate Recognition:</strong> Cameras capture license plates along with vehicle color, make, model, and distinguishing features.</li>
+        <li><strong>Vehicle Search:</strong> Officers can search historical sightings to determine where a vehicle has traveled.</li>
+        <li><strong>Real-Time Alerts:</strong> Agencies can receive notifications when a vehicle associated with a wanted person, stolen vehicle, or active investigation passes a camera.</li>
+        <li><strong>Data Retention:</strong> Flock states that customer data is typically retained for 30 days unless preserved as evidence or otherwise required by law.</li>
+      </ul>
+    </div>
+
+    <div class="article-sources-box">
+      <h4>Sources & Reporting</h4>
+      <ul>
+        <li><strong>Flock Safety:</strong> Official documentation on ALPR technology, transparency, and privacy practices.</li>
+        <li><strong>Electronic Frontier Foundation (EFF):</strong> Analysis of privacy implications surrounding automated license plate readers.</li>
+        <li><strong>Local News Reporting:</strong> Coverage of the North Carolina investigation involving alleged misuse of the Flock camera system.</li>
+      </ul>
+    </div>
+  `
+},
+
+  "bigoil": {
+    title: "Exxon & The 50-Year Climate Cover-Up",
     date: "Aug 6, 2026",
     heroImage: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTl153YhJ0CROMxk5vKuFgPzKJ95XLerXu9KbYWR7DpjA&s=10",
     content: `
