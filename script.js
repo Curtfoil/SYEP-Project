@@ -5,12 +5,12 @@ const articlesData = {
     date: "August 5, 2026",
     heroImage: "https://i.insider.com/4fe22d71eab8ea0e5600001d?width=600&format=jpeg&auto=webp",
     content: `
-      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia.</p>
+      <p>Beginning in the 1970s, Nestlé became the target of a historic global boycott. The public health controversy centered around the multinational's aggressive marketing of breast milk substitutes—infant formula—in low-income, developing nations across Africa, Latin America, and Asia. Nestlé focused on these poor countries because sales were slowing down in richer nations like the United States and Europe. To make more money, the company had to convince millions of mothers in developing countries that factory-made formula was healthier and more modern than natural breast milk. </p>
       
       <h3>The "Milk Nurse" Sales Tactics</h3>
       <p>Investigative reports documented that Nestlé employed sales representatives dressed as medical professionals or "milk nurses." These representatives entered maternity wards to hand out free samples of commercial baby formula to mothers immediately after childbirth.</p>
       
-      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder.</p>
+      <p>Once mothers began using formula for a few consecutive days, their body's natural lactation ceased. When mothers left the hospital, the free samples ran out, forcing them to purchase the expensive formula powder. This created a deadly trap for poor families. Because the formula powder was so expensive, mothers tried to make it last longer by watering it down. This meant the babies did not get enough nutrients and began to starve. Even worse, many villages did not have clean running water. Mixing the formula with polluted water gave the babies severe infections and diarrhea, leading to the tragic deaths of millions of infants.</p>
 
       <blockquote>"They created a commercial reliance on a product that local families could neither afford nor safely prepare."</blockquote>
 
@@ -42,7 +42,7 @@ const articlesData = {
     date: "Aug 6, 2026",
     heroImage: "https://images.unsplash.com/photo-1512436991641-6745cdb1723f?w=1200&q=80",
     content: `
-      <p>The transformation of traditional apparel retail into "ultra-fast fashion"—pioneered by global e-commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps <em>every day</em>.</p>
+      <p>The transformation of traditional apparel retail into "ultra fast fashion" pioneered by global e commerce platforms like Shein and Temu—has scaled an environmental and human rights crisis. Unlike traditional fashion houses that launch seasonal lines, ultra-fast fashion platforms add between 6,000 to 10,000 new items to their apps This super fast speed comes at a heavy human cost. To make thousands of new clothes so quickly, factory workers are forced to work 75 hours a week with almost no days off. They get paid only a few cents for each item they finish, and recent audits have even found children working in some of these factories. <em>every day</em>.</p>
 
       <h3>Sub-Living Wages and Factory Labor</h3>
       <p>Undercover investigations into supplier manufacturing hubs in Guangzhou, China, revealed garment workers operating 75-hour workweeks with only one day off per month. Many workers earned per-item piece rates without base wage protections or safety equipment.Shein's internal audits uncovered multiple instances of child labor within its supply chain, prompting immediate contract terminations for offending suppliers. Labor advocates argue the ultra-fast-fashion business model drives these abuses by forcing suppliers to subcontract to unauthorized workshops, resulting in systemic issues like extreme work hours and unsafe conditions.</p>
